@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: dfc185b9dd8c596449baf4a4e893a224
+timeCreated: 1511654976
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy8_attack instance 10000
+    21300002: enemy8_attack instance 10001
+    21300004: enemy8_attack instance 10002
+    21300006: enemy8_attack instance 10003
+    21300008: enemy8_attack instance 10004
+    21300010: enemy8_attack instance 10005
+    21300012: enemy8_attack instance 10006
+    21300014: enemy8_attack instance 10007
+    21300016: enemy8_attack instance 10008
+    21300018: enemy8_attack instance 10009
+    21300020: enemy8_attack instance 10010
+    21300022: enemy8_attack instance 10011
+    21300024: enemy8_attack instance 10012
+    21300026: enemy8_attack instance 10013
+    21300028: enemy8_attack instance 10014
+    21300030: enemy8_attack instance 10015
+    21300032: enemy8_attack instance 10016
+    21300034: enemy8_attack instance 10017
+    21300036: enemy8_attack instance 10018
+    21300038: enemy8_attack instance 10019
+    21300040: enemy8_attack instance 10020
+    21300042: enemy8_attack instance 10021
+    21300044: enemy8_attack instance 10022
+    21300046: enemy8_attack instance 10023
+    21300048: enemy8_attack instance 10024
+    21300050: enemy8_attack instance 10025
+    21300052: enemy8_attack instance 10026
+    21300054: enemy8_attack instance 10027
+    21300056: enemy8_attack instance 10028
+    21300058: enemy8_attack instance 10029
+    21300060: enemy8_attack instance 10030
+    21300062: enemy8_attack instance 10031
+    21300064: enemy8_attack instance 10032
+    21300066: enemy8_attack instance 10033
+    21300068: enemy8_attack instance 10034
+    21300070: enemy8_attack instance 10035
+    21300072: enemy8_attack instance 10036
+    21300074: enemy8_attack instance 10037
+    21300076: enemy8_attack instance 10038
+    21300078: enemy8_attack0000
+    21300080: enemy8_attack0001
+    21300082: enemy8_attack0002
+    21300084: enemy8_attack0003
+    21300086: enemy8_attack0004
+    21300088: enemy8_attack0005
+    21300090: enemy8_attack0006
+    21300092: enemy8_attack0007
+    21300094: enemy8_attack0008
+    21300096: enemy8_attack0009
+    21300098: enemy8_attack0010
+    21300100: enemy8_attack0011
+    21300102: enemy8_attack0012
+    21300104: enemy8_attack0013
+    21300106: enemy8_attack0014
+    21300108: enemy8_attack0015
+    21300110: enemy8_attack0016
+    21300112: enemy8_attack0017
+    21300114: enemy8_attack0018
+    21300116: enemy8_attack0019
+    21300118: enemy8_attack0020
+    21300120: enemy8_attack0021
+    21300122: enemy8_attack0022
+    21300124: enemy8_attack0023
+    21300126: enemy8_attack0024
+    21300128: enemy8_attack0025
+    21300130: enemy8_attack0026
+    21300132: enemy8_attack0027
+    21300134: enemy8_attack0028
+    21300136: enemy8_attack0029
+    21300138: enemy8_attack0030
+    21300140: enemy8_attack0031
+    21300142: enemy8_attack0032
+    21300144: enemy8_attack0033
+    21300146: enemy8_attack0034
+    21300148: enemy8_attack0035
+    21300150: enemy8_attack0036
+    21300152: enemy8_attack0037
+    21300154: enemy8_attack0038
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy8_attack0000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3622
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0001
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 3622
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0002
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3622
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0003
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 3622
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0004
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 3622
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3148
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0006
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 3148
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0007
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3148
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0008
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 3148
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0009
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 3148
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2674
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0011
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2674
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0012
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2674
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0013
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 2674
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0014
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 2674
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0016
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2200
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0017
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2200
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0018
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 2200
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0019
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 2200
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0021
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1726
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0022
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1726
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0023
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1726
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0024
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 1726
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0025
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0026
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1252
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0027
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1252
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0028
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1252
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0029
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 1252
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 778
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0031
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 778
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0032
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 778
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0033
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 778
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0034
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 778
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0035
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0036
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 304
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0037
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 304
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: enemy8_attack0038
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 304
+        width: 739
+        height: 474
+      alignment: 9
+      pivot: {x: 0.422, y: -0.0985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

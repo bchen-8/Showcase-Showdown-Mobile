@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Title.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Title0000" x="0" y="0" width="381" height="181"/>
+	<SubTexture name="Title0001" x="381" y="0" width="381" height="181"/>
+	<SubTexture name="Title0002" x="0" y="181" width="381" height="181"/>
+	<SubTexture name="Title0003" x="381" y="181" width="381" height="181"/>
+	<SubTexture name="Title0004" x="0" y="362" width="381" height="181"/>
+	<SubTexture name="Title0005" x="381" y="362" width="381" height="181"/>
+</TextureAtlas>

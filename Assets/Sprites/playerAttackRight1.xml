@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="playerAttackRight1.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="playerAttackRight10000" x="0" y="0" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10001" x="186" y="0" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10002" x="0" y="162" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10003" x="186" y="162" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10004" x="0" y="324" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10005" x="186" y="324" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10006" x="0" y="486" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10007" x="186" y="486" width="186" height="162"/>
+	<SubTexture name="playerAttackRight10008" x="0" y="648" width="186" height="162"/>
+</TextureAtlas>

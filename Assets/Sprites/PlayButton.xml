@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PlayButton.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PlayButton0000" x="0" y="0" width="89" height="109"/>
+	<SubTexture name="PlayButton0001" x="89" y="0" width="89" height="109"/>
+	<SubTexture name="PlayButton0002" x="0" y="109" width="89" height="109"/>
+	<SubTexture name="PlayButton0003" x="89" y="109" width="89" height="109"/>
+	<SubTexture name="PlayButton0004" x="0" y="218" width="89" height="109"/>
+	<SubTexture name="PlayButton0005" x="89" y="218" width="89" height="109"/>
+</TextureAtlas>

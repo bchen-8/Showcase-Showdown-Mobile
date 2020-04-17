@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: fefff1cdf7f43a94e9974b559726fd30
+timeCreated: 1511638585
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: playerAttackLeft30000
+    21300002: playerAttackLeft30001
+    21300004: playerAttackLeft30002
+    21300006: playerAttackLeft30003
+    21300008: playerAttackLeft30004
+    21300010: playerAttackLeft30005
+    21300012: playerAttackLeft30006
+    21300014: playerAttackLeft30007
+    21300016: playerAttackLeft30008
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playerAttackLeft30000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30001
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1800
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1552
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30003
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1552
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30004
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1304
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30005
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1304
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30006
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30007
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1056
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playerAttackLeft30008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 347
+        height: 248
+      alignment: 9
+      pivot: {x: 0.9080705, y: 0.0207682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

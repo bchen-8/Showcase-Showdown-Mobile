@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enemy6_attack.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="enemy6_attack instance 10000" x="0" y="0" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10001" x="414" y="0" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10002" x="828" y="0" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10003" x="1242" y="0" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10004" x="0" y="167" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10005" x="414" y="167" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10006" x="828" y="167" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10007" x="1242" y="167" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10008" x="0" y="334" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10009" x="414" y="334" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10010" x="828" y="334" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10011" x="1242" y="334" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10012" x="0" y="501" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10013" x="414" y="501" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10014" x="828" y="501" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10015" x="1242" y="501" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10016" x="0" y="668" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10017" x="414" y="668" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10018" x="828" y="668" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10019" x="1242" y="668" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10020" x="0" y="835" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10021" x="414" y="835" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10022" x="828" y="835" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10023" x="1242" y="835" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10024" x="0" y="1002" width="414" height="167"/>
+	<SubTexture name="enemy6_attack instance 10025" x="414" y="1002" width="414" height="167"/>
+</TextureAtlas>

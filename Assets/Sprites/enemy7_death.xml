@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enemy7_death.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="enemy7_death instance 10000" x="0" y="0" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10001" x="249" y="0" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10002" x="0" y="138" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10003" x="249" y="138" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10004" x="0" y="276" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10005" x="249" y="276" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10006" x="0" y="414" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10007" x="249" y="414" width="249" height="138"/>
+	<SubTexture name="enemy7_death instance 10008" x="0" y="552" width="249" height="138"/>
+</TextureAtlas>

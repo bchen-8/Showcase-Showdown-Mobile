@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Retry.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Retry instance 10000" x="0" y="0" width="160" height="71"/>
+	<SubTexture name="Retry instance 10001" x="0" y="71" width="160" height="71"/>
+	<SubTexture name="Retry instance 10002" x="0" y="142" width="160" height="71"/>
+	<SubTexture name="Retry instance 10003" x="0" y="213" width="160" height="71"/>
+	<SubTexture name="Retry instance 10004" x="0" y="284" width="160" height="71"/>
+	<SubTexture name="Retry instance 10005" x="0" y="355" width="160" height="71"/>
+</TextureAtlas>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enemy5_death.png">
+	<!-- Created with Adobe Animate version 16.5.1.104 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="enemy5_death instance 10000" x="0" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10001" x="153" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10002" x="306" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10003" x="459" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10004" x="612" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10005" x="765" y="0" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10006" x="0" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10007" x="153" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10008" x="306" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10009" x="459" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10010" x="612" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10011" x="765" y="157" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10012" x="0" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10013" x="153" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10014" x="306" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10015" x="459" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10016" x="612" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10017" x="765" y="314" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10018" x="0" y="471" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10019" x="153" y="471" width="153" height="157"/>
+	<SubTexture name="enemy5_death instance 10020" x="306" y="471" width="153" height="157"/>
+</TextureAtlas>
