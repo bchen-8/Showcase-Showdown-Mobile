@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour {
                 }
             }
         }
-
     }
 
     public void Struck()
