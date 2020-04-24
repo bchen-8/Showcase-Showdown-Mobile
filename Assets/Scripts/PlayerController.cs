@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour {
 
     private float timeStamp;
 
+    
+
     void Start () {
         main = Main.GetComponent<Main>();
         anim = GetComponent<Animator>();
