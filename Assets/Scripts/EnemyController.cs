@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour {
 		enemyType = Random.Range(1, 9);
 		anim.SetInteger("EnemyAnimState", enemyType);
     }
-
+/*
 	void Update () {
         if (timeStamp <= Time.time)
         {
@@ -69,6 +69,56 @@ public class EnemyController : MonoBehaviour {
             }
         }
 	}
+*/
+
+	void Update(){
+        if (timeStamp <= Time.time)
+        {
+            if (Input.touchCount > 0){
+
+                 Touch touch = Input.GetTouch(0);
+                 Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
+
+                 if(touch_Pos.x < 0 || touch_Pos.x > 0){
+
+                     timeStamp = Time.time + 0.365f;
+
+
+                     if(killable == true)
+                     {
+                         if (enemyType == 1 || enemyType == 3 || enemyType == 5 || enemyType == 6 || enemyType == 7)
+                         {
+                             if(touch_Pos.x < 0){
+
+                                 Debug.Log("<<<");
+                                 anim.SetInteger("EnemyAnimState", enemyType + 50);
+                                 mainother.score = mainother.score + 1;
+                                 mainother.UpdateScore();
+
+                             }
+
+                         }
+                         if (enemyType == 2 || enemyType == 4 || enemyType == 8)
+                         {
+                             if(touch_Pos.x > 0)
+                             {
+                                  Debug.Log(">>>");
+                                  anim.SetInteger("EnemyAnimState", enemyType + 50);
+                                  mainother.score = mainother.score + 1;
+                                  mainother.UpdateScore();
+
+                             }
+
+                         }
+                     }
+                     
+                 }
+
+            }
+
+        }
+
+    }
 
 	public void Vulnerable()
 	{
