@@ -52,26 +52,36 @@ public class Main : MonoBehaviour {
 
 	void Update()
 	{
-		if(Input.touchCount > 0){
-			Touch touch = Input.GetTouch(0);
-			Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
-
-			if (restart)
+		if (restart)
+		{
+			if(Input.touchCount > 0)
 			{
-				if(touch_Pos.x > 0){
+				
+				Touch touch = Input.GetTouch(0);
+				Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
+
+				if(touch_Pos.x > 0)
+				{
 
 					SceneManager.LoadScene("Game");
 
 				}
-
 			}
-			if(touch_Pos.x < 0){
 
-                Instantiate(enemy);
+			if(Input.touchCount > 0){
+
+				Touch touch1 = Input.GetTouch(0);
+				Vector3 touch_Pos1 = Camera.main.ScreenToWorldPoint(touch1.position);
+
+				if(touch_Pos1.x < 0)
+				{
+					Instantiate(enemy);
+
+				}
 			}
 		}
-
 	}
+			
 	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds(startWait);
