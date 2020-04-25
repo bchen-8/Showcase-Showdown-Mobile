@@ -14,7 +14,7 @@ public class Main : MonoBehaviour {
 	private bool gameOver;
 	private bool restart;
 	public int score;
-	private bool ToucheSol;
+	public bool ToucheSol;
 	
 	public Text scoreText;
 
