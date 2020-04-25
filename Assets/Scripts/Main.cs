@@ -14,7 +14,7 @@ public class Main : MonoBehaviour {
 	private bool gameOver;
 	private bool restart;
 	public int score;
-	public bool ToucheSol;
+	//public bool ToucheSol;
 	
 	public Text scoreText;
 
@@ -37,8 +37,8 @@ public class Main : MonoBehaviour {
 	{
 		if (restart)
 		{
-			//if (Input.GetKeyDown(KeyCode.R))
-			if((Input.touchCount > 0) && ToucheSol == true)
+			if (Input.GetKeyDown(KeyCode.R))
+			//if((Input.touchCount > 0) && ToucheSol == true)
 			{
 				SceneManager.LoadScene("Game");
 			}

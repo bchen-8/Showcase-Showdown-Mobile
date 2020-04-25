@@ -21,6 +21,39 @@ public class PlayerController : MonoBehaviour {
         anim.SetInteger("AnimState", 0);
     }
 
+    void Update () {
+
+        if (timeStamp <= Time.time)
+        {
+            if (canAttack == true)
+            {
+                if (Input.touchCount > 0){
+
+                    Touch touch = Input.GetTouch(0);
+                    Vector2 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
+
+                    if (touch_Pos.x > 0){
+
+                        anim.SetInteger("AnimState", Random.Range(1, 4));
+                        timeStamp = Time.time + 0.365f;
+
+                    } else if (touch_Pos.x < 0){
+
+                        anim.SetInteger("AnimState", Random.Range(11, 14));
+                        timeStamp = Time.time + 0.365f;
+
+                    }else if(touch_Pos.y < 0){
+
+                         anim.SetInteger("AnimState", 100);
+                    }
+
+                }
+
+            }
+
+        }
+    }
+/*
 	void Update () {
         if (timeStamp <= Time.time)
         {
@@ -47,7 +80,7 @@ public class PlayerController : MonoBehaviour {
             }
         }
     }
-
+*/
     public void Struck()
     {
         canAttack = false;
