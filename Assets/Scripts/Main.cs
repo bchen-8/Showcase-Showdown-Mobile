@@ -32,13 +32,12 @@ public class Main : MonoBehaviour {
 		StartCoroutine(SpawnWaves());
 		//Anti-crash measures DISENGAGED.
 	}
-
+/*
 	void Update()
 	{
 		if (restart)
 		{
-			if (Input.GetKeyDown(KeyCode.R))
-			//if((Input.touchCount > 0) && ToucheSol == true)
+			if (Input.GetKeyDown(KeyCode.R))	
 			{
 				SceneManager.LoadScene("Game");
 			}
@@ -49,7 +48,30 @@ public class Main : MonoBehaviour {
 			Instantiate(enemy);
 		}
 	}
+*/
 
+	void Update()
+	{
+		if(Input.touchCount > 0){
+			Touch touch = Input.GetTouch(0);
+			Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
+
+			if (restart)
+			{
+				if(touch_Pos.x > 0){
+
+					SceneManager.LoadScene("Game");
+
+				}
+
+			}
+			if(touch_Pos.x < 0){
+
+                Instantiate(enemy);
+			}
+		}
+
+	}
 	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds(startWait);
