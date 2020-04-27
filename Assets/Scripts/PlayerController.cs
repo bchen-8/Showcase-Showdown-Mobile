@@ -51,34 +51,7 @@ public class PlayerController : MonoBehaviour {
 
         }
     }
-/*
-	void Update () {
-        if (timeStamp <= Time.time)
-        {
-            if (canAttack == true)
-            {
-                if (Input.GetKeyDown(KeyCode.A) == true)
-                {
-                    anim.SetInteger("AnimState", Random.Range(1, 4));
 
-                    timeStamp = Time.time + 0.365f;
-                    //Imported Cooldown Code
-                }
-                if (Input.GetKeyDown(KeyCode.D) == true)
-                {
-                    anim.SetInteger("AnimState", Random.Range(11, 14));
-
-                    timeStamp = Time.time + 0.365f;
-                    //Imported Cooldown Code
-                }
-                if (Input.GetKeyDown(KeyCode.K) == true)
-                {
-                    anim.SetInteger("AnimState", 100);
-                }
-            }
-        }
-    }
-*/
     public void Struck()
     {
         canAttack = false;

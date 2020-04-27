@@ -64,23 +64,7 @@ void Update()
     }
 
 
-/*
-	void Update()
-	{
-		if (restart)
-		{
-			if (Input.GetKeyDown(KeyCode.R))
-			{
-				SceneManager.LoadScene("Game");
-			}
-		}
 
-		if (Input.GetKeyDown(KeyCode.S) == true)
-		{
-			Instantiate(enemy);
-		}
-	}
-*/
 	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds(startWait);
