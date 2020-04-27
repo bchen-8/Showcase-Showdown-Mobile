@@ -31,22 +31,39 @@ public class Main : MonoBehaviour {
 		StartCoroutine(SpawnWaves());
 		//Anti-crash measures DISENGAGED.
 	}
+void Update()
+    {
+        if (restart)
+        {
+            if(Input.touchCount > 0)
+            {
+                
+                Touch touch = Input.GetTouch(0);
+                Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
 
-	void Update()
-	{
-		if (restart)
-		{
-			if (Input.GetKeyDown(KeyCode.R))
-			{
-				SceneManager.LoadScene("Game");
-			}
-		}
+                if(touch_Pos.x > 0)
+                {
 
-		if (Input.GetKeyDown(KeyCode.S) == true)
-		{
-			Instantiate(enemy);
-		}
-	}
+                    SceneManager.LoadScene("Game");
+
+                }
+            }
+
+            if(Input.touchCount > 0){
+
+                Touch touch1 = Input.GetTouch(0);
+                Vector3 touch_Pos1 = Camera.main.ScreenToWorldPoint(touch1.position);
+
+                if(touch_Pos1.x < 0)
+                {
+                    Instantiate(enemy);
+
+                }
+            }
+        }
+    }
+
+
 
 	IEnumerator SpawnWaves()
 	{

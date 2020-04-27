@@ -22,42 +22,6 @@ public class EnemyController : MonoBehaviour {
         //enemyType = 8;
     }
 
-	void Update () {
-        if (timeStamp <= Time.time)
-        {
-            if (Input.GetKeyDown(KeyCode.A) == true || Input.GetKeyDown(KeyCode.D) == true)
-            {
-
-                timeStamp = Time.time + 0.365f;
-                //Imported Cooldown Code
-
-                if (killable == true)
-                {
-                    if (enemyType == 1 || enemyType == 3 || enemyType == 5 || enemyType == 6 || enemyType == 7)
-                    {
-                        if (Input.GetKeyDown(KeyCode.A) == true)
-                        {
-                            //Debug.Log("<<<");
-                            anim.SetInteger("EnemyAnimState", enemyType + 50);
-                            mainother.score = mainother.score + 1;
-                            mainother.UpdateScore();
-                        }
-                    }
-                    if (enemyType == 2 || enemyType == 4 || enemyType == 8)
-                    {
-                        if (Input.GetKeyDown(KeyCode.D) == true)
-                        {
-                            //Debug.Log(">>>");
-                            anim.SetInteger("EnemyAnimState", enemyType + 50);
-                            mainother.score = mainother.score + 1;
-                            mainother.UpdateScore();
-                        }
-                    }
-                }
-            }
-        }
-	}
-/*
 	void Update(){
         if (timeStamp <= Time.time)
         {
@@ -106,7 +70,7 @@ public class EnemyController : MonoBehaviour {
         }
 
     }
-*/
+
 
     public void SetType() {
         anim = GetComponent<Animator>();
