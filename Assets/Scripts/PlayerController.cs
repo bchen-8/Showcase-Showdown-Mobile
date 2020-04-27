@@ -37,14 +37,11 @@ public class PlayerController : MonoBehaviour {
                         anim.SetInteger("AnimState", Random.Range(1, 4));
                         timeStamp = Time.time + 0.365f;
 
-                    } else if (touch_Pos.x > 0){
+                    } 
+                    if (touch_Pos.x > 0){
 
                         anim.SetInteger("AnimState", Random.Range(11, 14));
                         timeStamp = Time.time + 0.365f;
-
-                    }else if(touch_Pos.y < 0){
-
-                         anim.SetInteger("AnimState", 100);
                     }
 
                 }
