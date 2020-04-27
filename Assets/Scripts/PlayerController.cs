@@ -9,11 +9,9 @@ public class PlayerController : MonoBehaviour {
     public Main main;
     private Animator anim;
     private bool canAttack = true;
-    public static bool isDead;
+    public bool isDead;
 
     private float timeStamp;
-
-    
 
     void Start () {
         main = Main.GetComponent<Main>();
@@ -21,7 +19,7 @@ public class PlayerController : MonoBehaviour {
         anim.SetInteger("AnimState", 0);
     }
 
-    void Update () {
+        void Update () {
 
         if (timeStamp <= Time.time)
         {
@@ -50,6 +48,7 @@ public class PlayerController : MonoBehaviour {
 
         }
     }
+
 /*
 	void Update () {
         if (timeStamp <= Time.time)
@@ -77,7 +76,8 @@ public class PlayerController : MonoBehaviour {
             }
         }
     }
-*/
+    */
+
     public void Struck()
     {
         canAttack = false;
@@ -92,10 +92,4 @@ public class PlayerController : MonoBehaviour {
     {
         anim.SetInteger("AnimState", 0);
     }
-
-    public void Rip()
-    {
-        Destroy(gameObject);
-    }
 }
-//Keshawn Was here

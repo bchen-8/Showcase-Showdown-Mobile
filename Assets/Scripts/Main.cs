@@ -14,7 +14,6 @@ public class Main : MonoBehaviour {
 	private bool gameOver;
 	private bool restart;
 	public int score;
-	//public bool ToucheSol;
 	
 	public Text scoreText;
 
@@ -32,12 +31,45 @@ public class Main : MonoBehaviour {
 		StartCoroutine(SpawnWaves());
 		//Anti-crash measures DISENGAGED.
 	}
+
+	void Update()
+    {
+        if (restart)
+        {
+            if(Input.touchCount > 0)
+            {
+                
+                Touch touch = Input.GetTouch(0);
+                Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
+
+                if(touch_Pos.x > 0)
+                {
+
+                    SceneManager.LoadScene("Game");
+
+                }
+            }
+
+            if(Input.touchCount > 0){
+
+                Touch touch1 = Input.GetTouch(0);
+                Vector3 touch_Pos1 = Camera.main.ScreenToWorldPoint(touch1.position);
+
+                if(touch_Pos1.x < 0)
+                {
+                    Instantiate(enemy);
+
+                }
+            }
+        }
+    }
+
 /*
 	void Update()
 	{
 		if (restart)
 		{
-			if (Input.GetKeyDown(KeyCode.R))	
+			if (Input.GetKeyDown(KeyCode.R))
 			{
 				SceneManager.LoadScene("Game");
 			}
@@ -48,40 +80,8 @@ public class Main : MonoBehaviour {
 			Instantiate(enemy);
 		}
 	}
-*/
+	*/
 
-	void Update()
-	{
-		if (restart)
-		{
-			if(Input.touchCount > 0)
-			{
-				
-				Touch touch = Input.GetTouch(0);
-				Vector3 touch_Pos = Camera.main.ScreenToWorldPoint(touch.position);
-
-				if(touch_Pos.x > 0)
-				{
-
-					SceneManager.LoadScene("Game");
-
-				}
-			}
-
-			if(Input.touchCount > 0){
-
-				Touch touch1 = Input.GetTouch(0);
-				Vector3 touch_Pos1 = Camera.main.ScreenToWorldPoint(touch1.position);
-
-				if(touch_Pos1.x < 0)
-				{
-					Instantiate(enemy);
-
-				}
-			}
-		}
-	}
-			
 	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds(startWait);
@@ -99,7 +99,7 @@ public class Main : MonoBehaviour {
 				break;
 			}
             spawnWait = spawnWait - 0.05f;
-            Debug.Log("Faster...");
+            //Debug.Log("Faster...");
             yield return null;
 		}
 		yield return new WaitForSeconds(waveWait);
