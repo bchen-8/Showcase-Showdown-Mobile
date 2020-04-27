@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
     public Main main;
     private Animator anim;
     private bool canAttack = true;
-    public static bool isDead;
+    public bool isDead;
 
     private float timeStamp;
 
@@ -59,10 +59,5 @@ public class PlayerController : MonoBehaviour {
     public void SetStanding()
     {
         anim.SetInteger("AnimState", 0);
-    }
-
-    public void Rip()
-    {
-        Destroy(gameObject);
     }
 }

@@ -65,7 +65,7 @@ public class Main : MonoBehaviour {
 				break;
 			}
             spawnWait = spawnWait - 0.05f;
-            Debug.Log("Faster...");
+            //Debug.Log("Faster...");
             yield return null;
 		}
 		yield return new WaitForSeconds(waveWait);
