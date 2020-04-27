@@ -31,7 +31,23 @@ public class Main : MonoBehaviour {
 		StartCoroutine(SpawnWaves());
 		//Anti-crash measures DISENGAGED.
 	}
+void Update()
+	{
+		if (restart)
+		{
+			if (Input.GetKeyDown(KeyCode.R))
+			{
+				SceneManager.LoadScene("Game");
+			}
+		}
+		if (Input.GetKeyDown(KeyCode.S) == true)
+		{
+			Instantiate(enemy);
+		}
+	}
 
+
+/*
 	void Update()
 	{
 		if (restart)
@@ -47,7 +63,7 @@ public class Main : MonoBehaviour {
 			Instantiate(enemy);
 		}
 	}
-
+*/
 	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds(startWait);

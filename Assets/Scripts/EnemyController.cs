@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour {
         mainother = Main.GetComponent<Main>();
         //enemyType = 8;
     }
-
+/*
 	void Update () {
         if (timeStamp <= Time.time)
         {
@@ -57,7 +57,7 @@ public class EnemyController : MonoBehaviour {
             }
         }
 	}
-/*
+*/
 	void Update(){
         if (timeStamp <= Time.time)
         {
@@ -106,7 +106,7 @@ public class EnemyController : MonoBehaviour {
         }
 
     }
-*/
+
 
     public void SetType() {
         anim = GetComponent<Animator>();
